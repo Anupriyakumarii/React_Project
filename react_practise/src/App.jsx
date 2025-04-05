@@ -1,9 +1,10 @@
 import "./App.css";
+import HookState from "./components/hooks/HookState";
 
 function App() {
   return (
     <>
-      <h1>Wlcome to react practise</h1>
+      <HookState></HookState>
     </>
   );
 }
