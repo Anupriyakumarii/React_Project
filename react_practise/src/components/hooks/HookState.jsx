@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 const hookState = () => {
+  const [Count, setCount] = useState(0);
+
+  const handlevalue = () => {
+    setCount(() => Count + 1);
+  };
   return (
-    <div>
-      <h1>hooks</h1>
-    </div>
+    <>
+      <h1>{Count}</h1>
+      <button onClick={handlevalue}>Increment</button>
+    </>
   );
 };
 
