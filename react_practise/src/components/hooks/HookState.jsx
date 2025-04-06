@@ -6,10 +6,14 @@ const hookState = () => {
   const handlevalue = () => {
     setCount(() => Count + 1);
   };
+  const restvalue = () => {
+    setCount(0);
+  };
   return (
     <>
       <h1>{Count}</h1>
       <button onClick={handlevalue}>Increment</button>
+      <button onClick={restvalue}>Reset</button>
     </>
   );
 };
