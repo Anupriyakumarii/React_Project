@@ -13,6 +13,7 @@ const hookState = () => {
     <>
       <h1>{Count}</h1>
       <button onClick={handlevalue}>Increment</button>
+      <button onClick={decrementvalue}>Decrement</button>
       <button onClick={restvalue}>Reset</button>
     </>
   );
