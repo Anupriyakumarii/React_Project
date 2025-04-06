@@ -6,7 +6,9 @@ const hookState = () => {
   const handlevalue = () => {
     setCount(() => Count + 1);
   };
-  const decrementvalue = () => {};
+  const decrementvalue = () => {
+    setCount(() => Count - 1);
+  };
   const restvalue = () => {
     setCount(0);
   };
