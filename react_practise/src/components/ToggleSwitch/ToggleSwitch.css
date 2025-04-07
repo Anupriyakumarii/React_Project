@@ -1,0 +1,16 @@
+.toggle-switch{
+  background-color: grey /* Green */;
+  color: white;
+  padding: 20px 50px;
+  display:inline-flex;
+  border-radius: 45%;
+}
+
+.ON{
+  background-color: green;
+  transform: translate(50px);
+}
+.OFF{
+  background-color:red;
+  transform: translate(0);
+}
