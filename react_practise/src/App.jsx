@@ -1,10 +1,14 @@
 import "./App.css";
-import HookState from "./components/hooks/HookState";
+import ToggleSwitch from "./components/ToggleSwitch/ToggleSwitch";
+// import HookState from "./components/hooks/HookState";
 
 function App() {
   return (
     <>
-      <HookState></HookState>
+      {
+        /* <HookState></HookState> */
+        <ToggleSwitch></ToggleSwitch>
+      }
     </>
   );
 }
