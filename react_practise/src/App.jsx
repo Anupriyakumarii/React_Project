@@ -5,10 +5,8 @@ import ToggleSwitch from "./components/ToggleSwitch/ToggleSwitch";
 function App() {
   return (
     <>
-      {
-        /* <HookState></HookState> */
-        <ToggleSwitch></ToggleSwitch>
-      }
+      /* <HookState></HookState> */
+      <ToggleSwitch></ToggleSwitch>
     </>
   );
 }
