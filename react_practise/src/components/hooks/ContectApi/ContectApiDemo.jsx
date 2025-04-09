@@ -1,7 +1,5 @@
 import React from "react";
 
-const ContectApiDemo = () => {
+export const ContectApiDemo = () => {
   return <div></div>;
 };
-
-export default ContectApiDemo;
