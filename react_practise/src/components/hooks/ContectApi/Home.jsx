@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { BioContext } from "./ContectApiDemo";
 
 export const Home = () => {
-  const { myName, Age } = useContext(BioContext);
+  const { myName, Age } = useContext(BioContext); //to get the data from provider we use "usecontext" hook.
   return (
     <>
       <h1>
