@@ -3,7 +3,7 @@ import React, { Children, createContext } from "react";
 //1 step
 export const BioContext = createContext();
 
-//2nd step
+//2nd step this will provide all the dta to child component
 export const BioProvider = ({ children }) => {
   const myName = "Anu";
   const Age = 24;

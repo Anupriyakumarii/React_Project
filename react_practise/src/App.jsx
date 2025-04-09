@@ -9,6 +9,7 @@ function App() {
     <>
       {/* <HookState></HookState> */}
       {/* <ToggleSwitch></ToggleSwitch> */}
+      {/* For context api we need to wrap component in provider component */}
       <BioProvider>
         <Home></Home>
       </BioProvider>
