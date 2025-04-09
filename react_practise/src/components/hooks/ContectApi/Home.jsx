@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { BioContext } from "./ContectApiDemo";
 
-const Home = () => {
-  return <div></div>;
+export const Home = () => {
+  const { myName, Age } = useContext(BioContext);
+  return (
+    <>
+      <h1>
+        Hi! This is ContextApi Demo.My name is {myName} and my age is{Age}
+      </h1>
+    </>
+  );
 };
-
-export default Home;
